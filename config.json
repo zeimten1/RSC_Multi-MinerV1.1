@@ -1,0 +1,138 @@
+{
+    "window_title": "RSCRevolution2 - Myaccount419",
+    "ore_checkboxes": {
+        "tin_rock": false,
+        "copper_rock": false,
+        "coal_rock": false,
+        "mithril_rock": false,
+        "iron_rock": true,
+        "adamantite_rock": false
+    },
+    "show_empty_ore": true,
+    "priority_order": [
+        "iron_rock",
+        "copper_rock",
+        "mithril_rock",
+        "tin_rock",
+        "coal_rock"
+    ],
+    "break_settings": {
+        "breaks_enabled": false,
+        "min_seconds_between_breaks": 9960,
+        "max_seconds_between_breaks": 24960,
+        "min_break_duration_seconds": 60,
+        "max_break_duration_seconds": 60,
+        "micro_breaks_enabled": false,
+        "micro_break_min_ms": 250,
+        "micro_break_max_ms": 700
+    },
+    "mouse_settings": {
+        "min_delay_ms": 200,
+        "max_delay_ms": 500,
+        "human_curve_strength": 0.7,
+        "mouse_seed": 1322
+    },
+    "model_settings": {
+        "use_main_model": true,
+        "use_adamantite_model": false
+    },
+    "detection_settings": {
+        "confidence_threshold": 0.75,
+        "update_interval_ms": 200,
+        "no_ore_retry_delay_ms": 500
+    },
+    "antiban_failsafe_enabled": true,
+    "powermine_enabled": false,
+    "fatigue_detection_enabled": true,
+    "stop_on_full_inventory": false,
+    "fast_mining_enabled": true,
+    "overlay_mode": "ingame",
+    "mouse_outside_window": false,
+    "theme": "RS-Classic",
+    "font": "Consolas",
+    "fixed_ore_spots": [
+        [
+            0.5158924205378973,
+            0.6654545454545454
+        ],
+        [
+            0.5672371638141809,
+            0.3418181818181818
+        ]
+    ],
+    "verbose_debug": true,
+    "lazy_idle_pause_enabled": false,
+    "camera_rotation_enabled": false,
+    "overlay_box_thickness": 1,
+    "hover_mode_enabled": false,
+    "overlay_poll_ms": 250,
+    "antiban_master_enabled": true,
+    "teleport_detection_enabled": true,
+    "teleport_threshold": 35,
+    "teleport_message": "wtf",
+    "window_brightness": 100,
+    "autologin_enabled": false,
+    "walkto_enabled": true,
+    "walkto_min_clicks": 35,
+    "walkto_max_clicks": 42,
+    "walkto_destination": "Bank (Varrock East)",
+    "mod_crown_detection_enabled": true,
+    "chat_text_stop_enabled": true,
+    "chat_text_stop_phrases": [
+        "terror",
+        "kleio"
+    ],
+    "powermine_disable_fatigue": false,
+    "teleport_reactions_text": "wtf,waeaw,what,okay,hey,what thef,whatfhekfk,wut,wowa,wow,hello??,admin?,what is there an admin here?,who tp,why tp,what tpd me for",
+    "teleport_pick_random": true,
+    "clients": [
+        {},
+        {
+            "enabled": true,
+            "window_title": "RSCRevolution2 - M4g3 B4nk",
+            "task": "Mining",
+            "ore_checkboxes": {
+                "coal_rock": false,
+                "mithril_rock": false,
+                "iron_rock": true,
+                "tin_rock": false,
+                "copper_rock": false
+            },
+            "walkto_enabled": true,
+            "walkto_min_clicks": 35,
+            "walkto_max_clicks": 50,
+            "walkto_dest_a": "Varrock East",
+            "walkto_dest_b": "Bank (Varrock East)",
+            "walkto_dest_user": "",
+            "walkto_dest_xy": "",
+            "fixed_ore_spots": [
+                [
+                    0.376953125,
+                    0.5174418604651163
+                ],
+                [
+                    0.625,
+                    0.5523255813953488
+                ]
+            ],
+            "powermine_enabled": false,
+            "speed_mode": "fast"
+        },
+        {
+            "enabled": false,
+            "window_title": "",
+            "task": "Mining"
+        },
+        {
+            "enabled": false,
+            "window_title": "",
+            "task": "Mining"
+        }
+    ],
+    "speed_mode": "fast",
+    "walkto_dest1_a": "Varrock East",
+    "walkto_dest1_b": "Bank (Varrock East)",
+    "walkto_dest1_user": "VarEB",
+    "walkto_dest1_xy": "",
+    "multi_client_mode": true
+}
